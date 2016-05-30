@@ -105,6 +105,7 @@ func Provider() terraform.ResourceProvider {
 			"openstack_lb_monitor_v1":                  resourceLBMonitorV1(),
 			"openstack_lb_pool_v1":                     resourceLBPoolV1(),
 			"openstack_lb_vip_v1":                      resourceLBVipV1(),
+			"openstack_lbaas_loadbalancer_v2":          resourceLoadBalancerV2(),
 			"openstack_networking_network_v2":          resourceNetworkingNetworkV2(),
 			"openstack_networking_subnet_v2":           resourceNetworkingSubnetV2(),
 			"openstack_networking_floatingip_v2":       resourceNetworkingFloatingIPV2(),
